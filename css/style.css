@@ -301,9 +301,10 @@ footer {
   }
   .social_media {
     display: flex;
-    gap: 40px;
   }
-
+  .fab + .fab {
+    margin-left: 40px;
+  }
   .fab {
     font-size: 25px;
     color: white;
